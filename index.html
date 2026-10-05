@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ermie Leones | Licensed Customs Broker & Freight Data Validator</title>
+<meta name="description" content="Portfolio of Ermie Leones, Licensed Customs Broker with 13+ years in customs brokerage, import operations and freight data validation.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#eef1f3;--paper:#fff;--ink:#14263a;--muted:#546577;--line:#cfd8df;--ok:#1b7a5a;--okbg:#e2f3ec;--bad:#b3392f;--badbg:#fbe8e6;--accent:#1d4e89;
+--serif:'Fraunces',Georgia,'Times New Roman',serif;--sans:'Public Sans',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1824;--paper:#162434;--ink:#e8eef4;--muted:#9bacbc;--line:#2a3b4d;--ok:#4fc79a;--okbg:#12362b;--bad:#f08a80;--badbg:#3a1d1a;--accent:#7fb2ee}}
+:root[data-theme="dark"]{--bg:#0e1824;--paper:#162434;--ink:#e8eef4;--muted:#9bacbc;--line:#2a3b4d;--ok:#4fc79a;--okbg:#12362b;--bad:#f08a80;--badbg:#3a1d1a;--accent:#7fb2ee}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 var(--sans)}
+a{color:var(--accent)}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+nav{display:flex;gap:20px;flex-wrap:wrap;padding:18px 0;font-size:15px;font-weight:500}
+nav a{color:var(--muted);text-decoration:none}nav a:hover{color:var(--ink)}
+nav .name{color:var(--ink);font-weight:600;margin-right:auto}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding:36px 0 56px}
+h1,h2,h3{font-family:var(--serif);line-height:1.15;margin:0}
+h1{font-size:clamp(34px,5.2vw,54px);letter-spacing:-.01em}
+.lead{font-size:18px;color:var(--muted);max-width:52ch;margin:18px 0 24px}
+.btn{display:inline-block;padding:11px 20px;border-radius:6px;font-weight:600;text-decoration:none;border:1.5px solid var(--ink);color:var(--ink)}
+.btn.fill{background:var(--ink);color:var(--bg)}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+/* the one memorable thing: a document being validated */
+.doc{background:var(--paper);border:1px solid var(--line);border-radius:4px;padding:20px 22px;position:relative;box-shadow:6px 6px 0 var(--line)}
+.doc h3{font-size:17px;margin-bottom:2px}
+.doc small{color:var(--muted);font-size:13px}
+.doc table{width:100%;border-collapse:collapse;margin-top:14px;font-size:14px}
+.doc td{padding:8px 4px;border-top:1px solid var(--line);vertical-align:top}
+.doc td:last-child{text-align:right;white-space:nowrap;font-weight:600}
+.pill{padding:2px 8px;border-radius:99px;font-size:12.5px}
+.ok{background:var(--okbg);color:var(--ok)}.bad{background:var(--badbg);color:var(--bad)}
+.stamp{position:absolute;right:14px;bottom:-18px;border:3px solid var(--ok);color:var(--ok);font:700 18px var(--serif);padding:4px 14px;border-radius:4px;transform:rotate(-7deg);background:var(--paper);opacity:0;animation:stamp .5s 1.1s cubic-bezier(.2,1.6,.4,1) forwards}
+@keyframes stamp{from{opacity:0;transform:rotate(-7deg) scale(1.8)}to{opacity:1;transform:rotate(-7deg) scale(1)}}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);background:var(--paper);border-radius:4px}
+.stats div{padding:18px 20px;border-right:1px solid var(--line)}.stats div:last-child{border:0}
+.stats b{display:block;font:700 28px var(--serif)}.stats span{font-size:14px;color:var(--muted)}
+section{padding:56px 0}
+h2{font-size:clamp(26px,3.4vw,34px);margin-bottom:8px}
+.sub{color:var(--muted);margin:0 0 28px;max-width:62ch}
+details{background:var(--paper);border:1px solid var(--line);border-radius:4px;margin-bottom:12px}
+summary{cursor:pointer;padding:18px 22px;list-style:none;display:flex;gap:14px;align-items:baseline;justify-content:space-between}
+summary::-webkit-details-marker{display:none}
+summary h3{font-size:19px}
+summary .tag{font-size:13.5px;color:var(--muted);margin-top:4px}
+summary::after{content:"+";font:600 22px var(--sans);color:var(--accent);flex:none}
+details[open] summary::after{content:"\2212"}
+.body{padding:0 22px 22px;display:grid;grid-template-columns:1fr 1fr;gap:6px 32px}
+.body h4{margin:16px 0 4px;font-size:15px}
+.body p,.body li{margin:0;font-size:15px;color:var(--muted)}
+.body ul,.body ol{margin:0;padding-left:20px}
+.body .full{grid-column:1/-1}
+.res{border-left:4px solid var(--ok);padding-left:14px}
+.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.skills div{background:var(--paper);border:1px solid var(--line);border-radius:4px;padding:18px 20px}
+.skills h3{font-size:17px;margin-bottom:8px}.skills p{margin:0;font-size:15px;color:var(--muted)}
+.tl{border-left:2px solid var(--line);margin-left:6px}
+.tl div{padding:0 0 26px 22px;position:relative}
+.tl div::before{content:"";position:absolute;left:-7px;top:7px;width:12px;height:12px;border-radius:50%;background:var(--accent)}
+.tl b{display:block}.tl span{color:var(--muted);font-size:14.5px}
+footer{padding:48px 0 40px;border-top:1px solid var(--line);color:var(--muted);font-size:14.5px}
+footer h2{color:var(--ink)}
+.note{font-size:13.5px;color:var(--muted);margin-top:22px}
+@media (max-width:820px){.hero{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}.stats div:nth-child(2){border-right:0}.stats div:nth-child(-n+2){border-bottom:1px solid var(--line)}.body{grid-template-columns:1fr}.skills{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){.stamp{animation:none;opacity:1}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav><a class="name" href="#top">Ermie Leones</a><a href="#cases">Case studies</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#contact">Contact</a></nav>
+
+<header class="hero" id="top">
+<div>
+<h1>I make sure freight and customs data is right before it costs you money.</h1>
+<p class="lead">Licensed Customs Broker and CargoWise Certified Operator with 13+ years in customs brokerage, import operations and freight data validation. Based in the Philippines, working remotely.</p>
+<div class="btns"><a class="btn fill" href="#cases">Read case studies</a><a class="btn" href="mailto:ermie.leones@gmail.com">Email me</a></div>
+</div>
+<div class="doc" aria-label="Example of an invoice line being validated (fictional data)">
+<h3>Commercial invoice check</h3><small>Fictional example, line 14 of 220</small>
+<table>
+<tr><td>Quantity<br><small>Invoice 1,200 pcs, extracted 1,200</small></td><td><span class="pill ok">Match</span></td></tr>
+<tr><td>Qty × unit price<br><small>1,200 × 2.50 = 3,000.00</small></td><td><span class="pill ok">Match</span></td></tr>
+<tr><td>Description<br><small>"Shirts" is too vague for classification</small></td><td><span class="pill bad">Fixed</span></td></tr>
+</table>
+<div class="stamp">VERIFIED</div>
+</div>
+</header>
+
+<div class="stats" role="list">
+<div role="listitem"><b>10,000+</b><span>invoice lines validated monthly</span></div>
+<div role="listitem"><b>500+</b><span>freight invoices checked monthly</span></div>
+<div role="listitem"><b>98%+</b><span>data accuracy maintained</span></div>
+<div role="listitem"><b>13+ yrs</b><span>in customs and freight</span></div>
+</div>
+
+<section id="cases">
+<h2>Case studies</h2>
+<p class="sub">Five pieces of real work, explained step by step. Examples use fictional figures, and no client data is shared.</p>
+
+<details open><summary><div><h3>Validating 10,000+ AI-extracted invoice lines a month</h3><div class="tag">Freight Data Validator, Expedock Software Inc. (2023 to present)</div></div></summary>
+<div class="body">
+<div><h4>Problem</h4><p>An AI system extracts invoice data quickly, but a wrong description, quantity or value on a customs entry can lead to incorrect duties, holds or penalties.</p></div>
+<div><h4>My role</h4><p>Final human check on AI-extracted data before customs entry lodgment, at 10,000+ lines a month.</p></div>
+<div class="full"><h4>Approach</h4><ol><li>Compare extracted fields with the source invoice: description, quantity, value, currency, shipment details.</li><li>Test the logic: quantity × price equals line total, line totals equal invoice total.</li><li>Use customs knowledge to flag descriptions too vague to classify.</li><li>Correct clear errors, query the source when the document is ambiguous.</li></ol></div>
+<div class="full res"><h4>Result</h4><p>98%+ accuracy at high volume, and data that reached lodgment already verified. Broker knowledge caught issues a non-specialist might miss.</p></div>
+</div></details>
+
+<details><summary><div><h3>Freight invoice validation before Accounts Payable</h3><div class="tag">Freight Data Validator, Expedock Software Inc.</div></div></summary>
+<div class="body">
+<div><h4>Problem</h4><p>Freight invoices can contain duplicated charges, wrong shipment references or unsupported amounts. Once paid, mistakes are slow and costly to recover.</p></div>
+<div><h4>My role</h4><p>Review 500+ freight invoices a month before they enter Accounts Payable.</p></div>
+<div class="full"><h4>Approach</h4><ol><li>Match the invoice reference to the actual shipment record.</li><li>Review each charge against supporting documents.</li><li>Check quantities and units against shipment data.</li><li>Release clean invoices to AP, return flagged ones with clear notes.</li></ol></div>
+<div class="full res"><h4>Result</h4><p>500+ invoices a month checked before payment, giving AP a cleaner, verified input.</p></div>
+</div></details>
+
+<details><summary><div><h3>Tariff classification and duty and tax computation</h3><div class="tag">Licensed Customs Broker, Independent Practice (2017 to 2023)</div></div></summary>
+<div class="body">
+<div><h4>Problem</h4><p>Every import declaration depends on correct classification and correct duty and tax figures. Errors mean penalties or overpayment.</p></div>
+<div><h4>My role</h4><p>Classification, computation and consultation on import, export and PEZA shipments for 2 active clients.</p></div>
+<div class="full"><h4>Approach</h4><ol><li>Review invoice, packing list and bill of lading to understand the goods.</li><li>Classify under the correct tariff heading.</li><li>Establish the dutiable value and apply the duty rate.</li><li>Compute duties and taxes, then double-check.</li><li>Advise the client on required documents before arrival.</li></ol>
+<p style="margin-top:10px">Simplified fictional example: CIF PHP 1,000,000 + duty at 10% (100,000) + VAT at 12% on 1,100,000 (132,000) = PHP 232,000 total duties and taxes.</p></div>
+<div class="full res"><h4>Result</h4><p>Accurate, compliant assessments and practical guidance for clients on import, export and PEZA requirements.</p></div>
+</div></details>
+
+<details><summary><div><h3>MBL/HBL manifest verification</h3><div class="tag">Import Specialist, Kintetsu Worldwide Express Philippines (2013)</div></div></summary>
+<div class="body">
+<div><h4>Problem</h4><p>In consolidated freight, house bills must agree with the master bill and manifest. Mismatches delay cargo at clearance.</p></div>
+<div><h4>My role</h4><p>Process and verify 80+ cargo manifests a month against MBL and HBL.</p></div>
+<div class="full"><h4>Approach</h4><ol><li>Compare consignee, packages, weights and descriptions across all documents.</li><li>Document each discrepancy found.</li><li>Coordinate corrections with customers, carriers and overseas offices.</li><li>Monitor arrivals and confirm documents are ready for processing.</li></ol></div>
+<div class="full res"><h4>Result</h4><p>Accurate, complete manifest data, with discrepancies corrected before they held up clearance.</p></div>
+</div></details>
+
+<details><summary><div><h3>Managing 150+ import shipments a month</h3><div class="tag">Account Handler, Nague Malic Magnawa & Associates (2014 to 2017)</div></div></summary>
+<div class="body">
+<div><h4>Problem</h4><p>Clearance involves clients, brokers, carriers and agencies. Poor communication causes delays and storage costs.</p></div>
+<div><h4>My role</h4><p>Monitor 150+ shipments and handle 50+ customer inquiries a month across multiple accounts.</p></div>
+<div class="full"><h4>Approach</h4><ol><li>Track each shipment through the clearance stages and update clients on time.</li><li>Answer inquiries with accurate status and documentation guidance.</li><li>Coordinate requirements with all parties.</li><li>Keep organized records of transactions and customs documents.</li></ol></div>
+<div class="full res"><h4>Result</h4><p>Timely updates across a high-volume portfolio, concerns resolved clearly, and well-kept records for every account.</p></div>
+</div></details>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<p class="sub">What I bring to a freight or customs team.</p>
+<div class="skills">
+<div><h3>Customs and compliance</h3><p>Tariff classification, duty and tax computation, import/export/PEZA consultation, customs entry data preparation.</p></div>
+<div><h3>Data and validation</h3><p>Commercial invoice validation, freight invoice and AP validation, MBL/HBL verification, discrepancy resolution, quality control.</p></div>
+<div><h3>Tools and operations</h3><p>CargoWise, Expedock AI system, Microsoft Excel and Office, shipment tracking, stakeholder coordination, account management.</p></div>
+</div>
+</section>
+
+<section id="experience">
+<h2>Experience</h2>
+<p class="sub">Licensed Customs Broker (PRC, 2012). BS Customs Administration, Lyceum of the Philippines University – Batangas (2012).</p>
+<div class="tl">
+<div><b>Freight Data Validator, Expedock Software Inc.</b><span>March 2023 to present, remote</span></div>
+<div><b>Licensed Customs Broker, Independent Practice</b><span>November 2017 to March 2023, Philippines</span></div>
+<div><b>Account Handler, Nague Malic Magnawa & Associates Customs Broker</b><span>October 2014 to October 2017, Philippines</span></div>
+<div><b>Import Specialist, Kintetsu Worldwide Express Philippines</b><span>January 2013 to October 2013, Philippines</span></div>
+</div>
+</section>
+</div>
+
+<footer id="contact"><div class="wrap">
+<h2>Get in touch</h2>
+<p>Hiring for freight data, customs or import operations? Email <a href="mailto:ermie.leones@gmail.com">ermie.leones@gmail.com</a>.</p>
+<p class="note">Case study examples are illustrative and use fictional figures. No client or proprietary data is shown.</p>
+</div></footer>
+</body>
+</html>
